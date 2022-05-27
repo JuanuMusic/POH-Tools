@@ -18,3 +18,4 @@ POHDummy does not replicate the Proof of HUmanity contract behaviours and regist
 ## Deployments:
 
 - Kiln: [0xde4ABEdd6527e4DcBBd50221734Ff5A609bE275C](https://explorer.kiln.themerge.dev/address/0xde4ABEdd6527e4DcBBd50221734Ff5A609bE275C)
+- Kovan: [0xe35ABd08eb021603488138e128e9D80a83c50408](https://kovan.etherscan.io/address/0xe35ABd08eb021603488138e128e9D80a83c50408)

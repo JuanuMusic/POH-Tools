@@ -23,6 +23,14 @@ task("accounts", "Prints the list of accounts", async (taskArgs, hre) => {
 // You need to export an object to set up your config
 // Go to https://hardhat.org/config/ to learn more
 
+//  Use this if deploying to KILN
+const {
+  GanacheGasMultiplierProvider,
+} = require("hardhat/internal/core/providers/gas-providers");
+
+GanacheGasMultiplierProvider.prototype._isGanache = async () => false;
+
+
 const config: HardhatUserConfig & { gasReporter: any, etherscan: any, settings: any } = {
   solidity: "0.8.4",
   settings: {

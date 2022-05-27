@@ -17,4 +17,4 @@ POHDummy does not replicate the Proof of HUmanity contract behaviours and regist
 
 ## Deployments:
 
-- Kiln: [0xf261c4f93d1b2991bb47e7f295af3b2fc17bd440](https://explorer.kiln.themerge.dev/address/0xf261c4f93d1b2991bb47e7f295af3b2fc17bd440)
+- Kiln: [0xde4ABEdd6527e4DcBBd50221734Ff5A609bE275C](https://explorer.kiln.themerge.dev/address/0xf261c4f93d1b2991bb47e7f295af3b2fc17bd440)

@@ -45,6 +45,12 @@ const config: HardhatUserConfig & { gasReporter: any, etherscan: any, settings: 
       accounts:
         process.env.PRIVATE_KEY !== undefined ? [process.env.PRIVATE_KEY] : [],
     },
+    kovan: {
+      url: process.env.KOVAN_URL,
+      accounts:
+        process.env.PRIVATE_KEY !== undefined ? [process.env.PRIVATE_KEY] : [],
+      gas: 2100000
+    }
   },
   gasReporter: {
     enabled: false,
